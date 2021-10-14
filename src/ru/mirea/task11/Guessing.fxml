@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="123.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task11.Controller">
+   <children>
+      <Button fx:id="btn" layoutX="73.0" layoutY="73.0" mnemonicParsing="false" onAction="#pressButton" prefHeight="36.0" prefWidth="164.0" text="Ответить" />
+      <TextField fx:id="txt" alignment="CENTER" layoutX="81.0" layoutY="37.0" />
+      <Label layoutX="84.0" layoutY="14.0" text="Угадайте число от 0 до 20" />
+   </children>
+</AnchorPane>

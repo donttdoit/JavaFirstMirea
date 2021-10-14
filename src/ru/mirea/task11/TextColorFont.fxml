@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mirea.task11.Controller">
+   <children>
+      <TextArea fx:id="text_area" layoutX="322.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font name="Consolas" size="14.0" />
+         </font></TextArea>
+      <RadioButton fx:id="consolas" layoutX="146.0" layoutY="100.0" mnemonicParsing="false" onAction="#change_text_area" prefHeight="24.0" prefWidth="147.0" selected="true" text="Consolas">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="fonts" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="arial_black" layoutX="146.0" layoutY="140.0" mnemonicParsing="false" onAction="#change_text_area" prefHeight="27.0" prefWidth="160.0" text="Arial Black" toggleGroup="$fonts">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="monotype_corsiva" layoutX="148.0" layoutY="180.0" mnemonicParsing="false" onAction="#change_text_area" prefHeight="24.0" prefWidth="160.0" text="Monotype Corsiva" toggleGroup="$fonts">
+         <font>
+            <Font name="Monotype Corsiva" size="18.0" />
+         </font></RadioButton>
+      <ColorPicker fx:id="color_picker" layoutX="157.0" layoutY="238.0" onAction="#change_color_text_area">
+         <value>
+            <Color />
+         </value></ColorPicker>
+   </children>
+</Pane>
