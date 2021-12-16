@@ -1,4 +1,4 @@
-package ru.mirea.task16;
+package ru.mirea.task17;
 
 enum Bank2 {
     Credit, Deposit, Hypothec, Loan, NewCard;
