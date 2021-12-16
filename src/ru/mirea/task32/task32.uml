@@ -10,19 +10,19 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="ru.mirea.task7.MovableCircle" target="ru.mirea.task7.opt5_6.MovablePoint" relationship="GENERALIZATION">
+    <edge source="ru.mirea.task7.MovableCircle" target="ru.mirea.task7.MovablePoint" relationship="GENERALIZATION">
       <point x="-36.75" y="-15.5" />
       <point x="232.75" y="140.0" />
       <point x="175.125" y="140.0" />
       <point x="0.0" y="15.5" />
     </edge>
-    <edge source="ru.mirea.task7.MovableRectangle" target="ru.mirea.task7.opt5_6.MovablePoint" relationship="GENERALIZATION">
+    <edge source="ru.mirea.task7.MovableRectangle" target="ru.mirea.task7.MovablePoint" relationship="GENERALIZATION">
       <point x="44.0" y="-15.5" />
       <point x="132.0" y="140.0" />
       <point x="175.125" y="140.0" />
       <point x="0.0" y="15.5" />
     </edge>
-    <edge source="ru.mirea.task7.MovableRectangle" target="ru.mirea.task7.opt5_6.Movable" relationship="REALIZATION">
+    <edge source="ru.mirea.task7.MovableRectangle" target="ru.mirea.task7.Movable" relationship="REALIZATION">
       <point x="-44.0" y="-15.5" />
       <point x="44.0" y="140.0" />
       <point x="83.0" y="140.0" />
@@ -30,7 +30,7 @@
       <point x="175.125" y="57.0" />
       <point x="0.0" y="15.5" />
     </edge>
-    <edge source="ru.mirea.task7.MovableCircle" target="ru.mirea.task7.opt5_6.Movable" relationship="REALIZATION">
+    <edge source="ru.mirea.task7.MovableCircle" target="ru.mirea.task7.Movable" relationship="REALIZATION">
       <point x="36.75" y="-15.5" />
       <point x="306.25" y="140.0" />
       <point x="274.5" y="140.0" />
@@ -38,7 +38,7 @@
       <point x="175.125" y="57.0" />
       <point x="0.0" y="15.5" />
     </edge>
-    <edge source="ru.mirea.task7.MovablePoint" target="ru.mirea.task7.opt5_6.Movable" relationship="REALIZATION">
+    <edge source="ru.mirea.task7.MovablePoint" target="ru.mirea.task7.Movable" relationship="REALIZATION">
       <point x="0.0" y="-15.5" />
       <point x="0.0" y="15.5" />
     </edge>
